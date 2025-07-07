@@ -15,17 +15,6 @@ A simple Streamlit web app allows anyone to enter a search query and instantly s
 ✅ Interactive UI: Simple Streamlit app for user input and result display.
 ✅ Flexible Pipeline: Easy to extend with more features, better models, or real-time data.
 
-📂 Project Structure
-bash
-Copy
-Edit
-📁 news-recommender/
- ├── ui.py              # Streamlit web app
- ├── news_main.py       # Main pipeline logic
- ├── project_plot.py    # Plots for evaluation
- ├── News_Category_Dataset_v3.json  # HuffPost news dataset
- ├── requirements.txt   # Python dependencies
- ├── README.md          # Project documentation
 ⚙️ How It Works
 1️⃣ Load & Clean Data:
 Loads news data from JSON, removes HTML tags, lowercases text, removes stopwords, and lemmatizes words.
